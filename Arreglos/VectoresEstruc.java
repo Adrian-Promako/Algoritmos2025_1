@@ -1,29 +1,61 @@
-import java.util.Scanner;
-public class VectoresEstruc {
+import java.util.Scanner; 
 
-    public static void main(String[] args) {  //crear el main
-        Scanner sc = new Scanner(System.in);   // crear un metodo Scanner 
-        // int [] vector = new int [5]; // crear el vector con el tipo de dato de variable
+public class temperaturas {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+  /* Ejercicio 1: Registro de Temperaturas Mensuales
+Contexto: Una estación meteorológica necesita procesar las temperaturas máximas
+diarias registradas durante un mes (considera un mes de 30 días para simplificar).
+Requisitos:
+1. Crea un programa que solicite al usuario ingresar las 30 temperaturas
+máximas del mes. Almacena estas temperaturas en un vector (array).
+2. Calcula y muestra la temperatura máxima registrada en el mes.
+3. Calcula y muestra la temperatura mínima registrada en el mes.
+4. Calcula y muestra la temperatura promedio del mes.
+5. Indica cuántos días la temperatura superó los 25 grados Celsius.
+6. Utiliza ciclos para ingresar los datos y para realizar los cálculos. Usa
+condicionales para encontrar el máximo, mínimo y contar los días cálidos.*/  
 
-        /*
-        int numero ;
-            vector [0] = 1;
-            vector [1] = 2;
-            vector [2] = 3;
-            vector [3] = 4;
-            vector [4] = 5;  */
+int temperaturas [] = new int [30];  //crear vector de 30 registros
 
-            int [] precios = new int [3];  //crea una variable con nombre precios en el vector  de 3 posiciones 
-            System.out.println("ingrese el precio");  //imprime la solicitud de los numeros
-            precios[0] = sc.nextInt();   // establece en el primer espacio del vector el 1er ingreso por teclado
-            precios[1] = sc.nextInt();   // establece en el primer espacio del vector el 2do ingreso por teclado 
-            System.out.println("ingrese el valor a restar");  
-            precios[2] = sc.nextInt();   // establece en el primer espacio del vector el 3er ingreso por teclado   
+System.out.println("Ingrese las temeperaturas");
 
-            int preciototal = precios[0]+precios[1]-precios[2];  // crea una variable para almacenar la operacion de los arreglos
-            System.out.println("El total de precios es:"+preciototal); //imprime el resultado de la operacion
+temperaturas [0] = scanner.nextInt();
+System.out.println("Ingrese las temeperatura 1");
+temperaturas [1] = scanner.nextInt();
+System.out.println("Ingrese las temeperatura 2");
+temperaturas [2] = scanner.nextInt();
+System.out.println("Ingrese las temeperatura 3");
+temperaturas [3] = scanner.nextInt();
+System.out.println("Ingrese las temeperatura 4");
+temperaturas [4] = scanner.nextInt();
+temperaturas [5] = scanner.nextInt();
+temperaturas [6] = scanner.nextInt();
+temperaturas [7] = scanner.nextInt();
+temperaturas [8] = scanner.nextInt();
+temperaturas [9] = scanner.nextInt();
+temperaturas [10] = scanner.nextInt();
+temperaturas [11] = scanner.nextInt();
+temperaturas [12] = scanner.nextInt();
+temperaturas [13] = scanner.nextInt();
+temperaturas [14] = scanner.nextInt();
+temperaturas [15] = scanner.nextInt();
+temperaturas [16] = scanner.nextInt();
+temperaturas [17] = scanner.nextInt();
+temperaturas [18] = scanner.nextInt();
+temperaturas [19] = scanner.nextInt();
+temperaturas [20] = scanner.nextInt();
+temperaturas [21] = scanner.nextInt();
+temperaturas [22] = scanner.nextInt();
+temperaturas [23] = scanner.nextInt();
+temperaturas [24] = scanner.nextInt();
+temperaturas [25] = scanner.nextInt();
+temperaturas [26] = scanner.nextInt();
+temperaturas [27] = scanner.nextInt();
+temperaturas [28] = scanner.nextInt();
+temperaturas [29] = scanner.nextInt();
 
-            sc.close();
-       }
-    
+
+
+    }
 }
