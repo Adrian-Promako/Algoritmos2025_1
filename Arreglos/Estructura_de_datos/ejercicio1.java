@@ -1,7 +1,7 @@
 package Estructura_de_datos;
 
 public class ejercicio1 {
-    
+        /*FUNCION DE ORDENAMIENTO DE BURBUJA ORDEN ASCEDENTE */
     public static void bubbleSort (int [] array){
         int n =array.length;
         boolean swapped; 
@@ -10,7 +10,7 @@ public class ejercicio1 {
             swapped = false;
             for (int j=0; j< n-i-1; j++){
 
-                if (array[j]>array[j+1]) {
+                if (array[j] < array[j+1]) {   /* por otro lado aqui deberia ir el signo mayor > para que el resultado sea Ascendente */
 
                     int temp = array[j];
                     array [j] = array [j+1];
@@ -22,21 +22,24 @@ public class ejercicio1 {
                 break;
             }
      } }
-
+            /* METODO PRINCIPAL PARA PROBAR LA FUNCION */
     public static void main (String []args){
-        int [] lista1 = {64,34,25,12,22,11,90};
-        int [] lista2 ={64,34,25,12,22,11,9,98,32,40};
+        int [] arr = {64,34,25,12,22,11,90};
+        int [] arr5 ={64,34,25,12,22,11,9,98,32,40};
         System.out.println("Arreglo original:");
+        printArray(arr5);
 
-        printArray(lista2);
-        bubbleSort(lista2);
-        System.out.println("\nArreglo ordenado de forma ascedente");
-        printArray(lista2);
+        bubbleSort(arr5);
+
+        System.out.println("\nArreglo ordenado de forma descedente");
+        printArray(arr5);
     }
-    
+                /*fUNCION AUXILIAR PARA IMPRIMIR EL ARREGLO */
     public static void printArray (int[] arr5) {
         for (int i=0; i<arr5.length; i++) {
             System.out.print(arr5[i]+" ");
         }
+        System.out.println();
     }
 }
+
