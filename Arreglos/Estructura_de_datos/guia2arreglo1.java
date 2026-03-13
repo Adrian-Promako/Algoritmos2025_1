@@ -7,7 +7,7 @@ public class guia2arreglo1 {
         int n = arr.length;                                         //se crea variable n donde almacena la cantidad de datos del arreglo
         for (int i=0; i<n-1; i++){  
             for (int j=0; j< n-i-1; j++){ 
-                //comparamos el elemento axtual con el siguiente
+                //comparamos el elemento actual con el siguiente
                 if (arr[j] > arr [j+1]){  /*aca determinamos el orden ascedente */
                     /*si el actual es mayor los intercambiamos */
                     int temp = arr[j];

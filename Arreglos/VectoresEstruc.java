@@ -16,7 +16,7 @@ máximas del mes. Almacena estas temperaturas en un vector (array).
 6. Utiliza ciclos para ingresar los datos y para realizar los cálculos. Usa
 condicionales para encontrar el máximo, mínimo y contar los días cálidos.*/  
 
-int temperaturas [] = new int [30];  //crear vector de 30 registros
+int temperaturas [] = new int [10];  //crear vector de 30 registros
 
 System.out.println("Ingrese las temeperaturas");
 
@@ -34,26 +34,6 @@ temperaturas [6] = scanner.nextInt();
 temperaturas [7] = scanner.nextInt();
 temperaturas [8] = scanner.nextInt();
 temperaturas [9] = scanner.nextInt();
-temperaturas [10] = scanner.nextInt();
-temperaturas [11] = scanner.nextInt();
-temperaturas [12] = scanner.nextInt();
-temperaturas [13] = scanner.nextInt();
-temperaturas [14] = scanner.nextInt();
-temperaturas [15] = scanner.nextInt();
-temperaturas [16] = scanner.nextInt();
-temperaturas [17] = scanner.nextInt();
-temperaturas [18] = scanner.nextInt();
-temperaturas [19] = scanner.nextInt();
-temperaturas [20] = scanner.nextInt();
-temperaturas [21] = scanner.nextInt();
-temperaturas [22] = scanner.nextInt();
-temperaturas [23] = scanner.nextInt();
-temperaturas [24] = scanner.nextInt();
-temperaturas [25] = scanner.nextInt();
-temperaturas [26] = scanner.nextInt();
-temperaturas [27] = scanner.nextInt();
-temperaturas [28] = scanner.nextInt();
-temperaturas [29] = scanner.nextInt();
 
 
 
